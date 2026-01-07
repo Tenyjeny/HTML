@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab1</title>
+</head>
+<body>
+    <form>
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" placeholder="Enter your name" required maxlength="25" size="25"><br><br>
+        <label for="email">Email</label>
+        <input type="text" id="email" name="email" value="test@example.com" required autofocus><br><br>
+        <label for="pwd">Password</label>
+        <input type="password" id="pwd" name="pwd" required minlength="6"><br><br>
+        <label for="cat">Category</label>
+        <select id="cat" name="cat" required>
+            <option value="blank">Select</option>
+            <option value="student">Student</option>
+            <option value="employee">Employee</option>
+            <option value="freelancer" selected>Free Lancer</option>
+        </select><br><br>
+        <label for="d">Event Date</label>
+        <input type="date" id="d" name="d" required><br><br>
+        <label for="button">Tickets</label><br>
+        <input type="radio" name="button" value="1 tickets" required>1 ticket
+        <input type="radio" name="button" value="2 tickets" required checked>2 tickets
+        <input type="radio" name="button" value="3 tickets" required>3 ticket <br><br>
+        <label for="op">Payment Mode</label><br>
+        <input type="checkbox" id="op" name="Online Payment" value="Online Payment" required>Online Payment<br><br>
+        <label for="ta">Notes</label><br>
+        <textarea id="ta"  rows="5" cols="50" name="Notes" placeholder="Scribble Down"></textarea><br><br>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
