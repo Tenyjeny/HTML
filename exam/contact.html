@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+</head>
+<body>
+    <h1 style="font-weight: bolder; color: navy;" >Contact Us</h1>
+<form>
+<label for="name">Name:</label><br>
+<input type="text" id="name" required placeholder="Roshin" pattern="[A-Za-z\s]+"><br><br>   
+<label for="mobile_number">Mobile Number:</label><br>
+<input type="tel" id="mobile_number" placeholder="9987345267" required pattern="[0-9]{10}"><br><br>
+<label for="communication_type">Type of Communication:</label><br>
+<select id="communication_type">
+<option disabled selected>Select an option</option>
+<option>Sales</option>
+<option>Service</option>                                                                                
+<option>Enquiry</option>
+<option>Advertisement</option>
+<option>Complaint</option>
+</select><br><br>
+<label for="description">Description:</label><br>
+<textarea rows="4" cols="40" id="description" required placeholder="Describe your Query"></textarea><br><br>
+<input type="submit" value="Submit">
+</form>
+<br><br>
+<a href="home.html" style="text-decoration: none; color: maroon; font-weight: bold; font-size: 20px">Back to Home</a>
+</body>
+</html>
